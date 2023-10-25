@@ -94,4 +94,5 @@ a:hover{
 video {
     border-radius: 20px;
     max-width: 720px;
+    box-shadow: 1px 1px 10px gray;
 }
