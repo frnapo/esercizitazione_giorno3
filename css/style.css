@@ -1,0 +1,97 @@
+/******************** FORMATTO HEADER - IMG - NAV - E CEENTRO TUTTO ***************************/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.center {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 200px;
+
+}
+
+#heading{
+    text-align: center;
+    color: rgb(0, 132, 152);
+    background-color: rgba(251, 200, 47, 0.1);
+    padding: 0.5px;
+    border-top: 2px solid rgb(251, 200, 47);
+
+
+}
+
+/******************** FORMATTO SEZIONE MAIN ***************************/
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+article p:nth-of-type(2) {
+    text-align: center;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.featured{
+    color: rgb(235, 137, 0);
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 15px;
+    border-left: 1px solid rgb(235, 137, 0);
+
+}
+.featured p{
+    margin: 0px;
+}
+
+h6{
+    font-weight: normal;
+    font-size: 28px;
+    border-bottom: 1.5px solid rgba(5, 208, 239, 0.3);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+li{
+    padding: 10px 0;
+}
+/******************** FORMATTO SEZIONE SECTION ***************************/
+
+section h3 {
+    padding-left: 30px;
+}
+
+.nobold {
+    font-weight: normal;
+}
+
+section p{
+    padding-left: 40px;
+}
+
+/******************** FORMATTO TUTTI I LINK ***************************/
+
+a {
+    color: rgb(0, 132, 152);
+}
+
+a:hover{
+    text-decoration: dashed;
+}
+
+/******************** FORMATTO VIDEO E COPERTINA ***************************/
+
+video {
+    border-radius: 20px;
+    max-width: 720px;
+}
